@@ -1,0 +1,1321 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+:focus,
+:active {
+  outline: none;
+}
+a:focus,
+a:active {
+  outline: none;
+}
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  scroll-behavior: smooth;
+}
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+input::-ms-clear {
+  display: none;
+}
+button {
+  cursor: pointer;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+img {
+  vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+@media (max-width: 1800px) {
+  .part1 {
+    width: 100%;
+    height: 100%;
+  }
+  .texts1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 400px;
+    margin: 60px;
+    text-align: right;
+  }
+  .part1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .black {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.4;
+  }
+  .texts1 h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    width: 350px;
+    box-sizing: border-box;
+    text-align: right;
+    color: white;
+    margin: 0px 0px 100px 60px;
+  }
+  .texts1 p {
+    width: 400px;
+    color: white;
+  }
+  .p1__1 {
+    font-size: 25px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    text-align: right;
+  }
+  .p1__2 {
+    font-size: 20px;
+    text-align: right;
+    opacity: 0.9;
+    margin: 20px 10px;
+  }
+  .texts1 a button {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 40px;
+  }
+  .part2 {
+    width: 100%;
+    height: 350px;
+    padding: 60px;
+  }
+  .texts2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .txt2__1 {
+    width: 45%;
+  }
+  .txt2__1 h1 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .txt2__1 h2 {
+    font-size: 30px;
+    margin: 10px 0px;
+    font-weight: bold;
+  }
+  .txt2__1 p {
+    font-size: 15px;
+  }
+  .txt2__2 {
+    width: 45%;
+  }
+  .txt2__2 p {
+    font-size: 15px;
+    max-height: 167px;
+    overflow: hidden;
+  }
+  .txt2__2 a button {
+    font-size: 15px;
+    padding: 10px 40px;
+    text-align: center;
+    margin: 10px 0px 0px;
+    color: white;
+    background-color: black;
+  }
+  .part3 {
+    width: 100%;
+    height: 500px;
+  }
+  .images3 {
+    display: flex;
+    flex-direction: row;
+  }
+  .images3 img {
+    width: 25%;
+    object-fit: cover;
+    height: 500px;
+  }
+  .part4 {
+    height: 450px;
+    width: 100%;
+    padding: 60px;
+  }
+  .texts4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .txt4__1 {
+    width: 30%;
+  }
+  .txt4__1 h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    margin: 0px 0px 20px;
+    text-align: left;
+  }
+  .txt4__1 h2 {
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .txt4__2 {
+    width: 28%;
+  }
+  .txt4__2 p {
+    font-size: 15px;
+    max-height: 300px;
+    overflow: hidden;
+    line-height: 18px;
+  }
+  .txt4__3 {
+    width: 33%;
+  }
+  .txt4__3 p {
+    font-size: 15px;
+    max-height: 280px;
+    overflow: hidden;
+    line-height: 18px;
+  }
+  .part5 {
+    height: 100%;
+    width: 100%;
+  }
+  .part5 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  .part6 {
+    width: 100%;
+    padding: 60px;
+    background-color: black;
+    height: 650px;
+  }
+  .cards6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .cards6 div {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+  }
+  .cards6 div img {
+    height: 400px;
+    object-fit: cover;
+  }
+  .cards6 div h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 30px 0px;
+    color: white;
+  }
+  .cards6 div p {
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+    width: 95%;
+    opacity: 0.8;
+  }
+  .part7 {
+    padding: 60px;
+    height: 300px;
+  }
+  .texts7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .texts7 div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+  .txt7__1 h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .txt7__1 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+    letter-spacing: 15px;
+  }
+  .txt7__1 p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .txt7__2 h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .txt7__2 ul li {
+    font-size: 15px;
+    margin: 10px;
+  }
+  .txt7__2 a button {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 1200px) {
+  .part1 {
+    width: 100%;
+    height: 100%;
+  }
+  .texts1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 400px;
+    margin: 60px;
+    text-align: right;
+  }
+  .part1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .black {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.4;
+  }
+  .texts1 h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    width: 350px;
+    box-sizing: border-box;
+    text-align: right;
+    color: white;
+    margin: 0px 0px 100px 60px;
+  }
+  .texts1 p {
+    width: 400px;
+    color: white;
+  }
+  .p1__1 {
+    font-size: 25px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    text-align: right;
+  }
+  .p1__2 {
+    font-size: 20px;
+    text-align: right;
+    opacity: 0.9;
+    margin: 20px 10px;
+  }
+  .texts1 a button {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 40px;
+  }
+  .part2 {
+    width: 100%;
+    height: 350px;
+    padding: 60px;
+  }
+  .texts2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .txt2__1 {
+    width: 48%;
+  }
+  .txt2__1 h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .txt2__1 h2 {
+    font-size: 25px;
+    margin: 10px 0px;
+    font-weight: bold;
+  }
+  .txt2__1 p {
+    font-size: 15px;
+  }
+  .txt2__2 {
+    width: 45%;
+  }
+  .txt2__2 p {
+    font-size: 15px;
+    max-height: 167px;
+    overflow: hidden;
+  }
+  .txt2__2 a button {
+    font-size: 15px;
+    padding: 10px 40px;
+    text-align: center;
+    margin: 10px 0px 0px;
+    color: white;
+    background-color: black;
+  }
+  .part3 {
+    width: 100%;
+    height: 400px;
+  }
+  .images3 {
+    display: flex;
+    flex-direction: row;
+  }
+  .images3 img {
+    width: 25%;
+    object-fit: cover;
+    height: 400px;
+  }
+  .part4 {
+    height: 450px;
+    width: 100%;
+    padding: 60px;
+  }
+  .texts4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .txt4__1 {
+    width: 34%;
+  }
+  .txt4__1 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    margin: 0px 0px 20px;
+    text-align: left;
+  }
+  .txt4__1 h2 {
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .txt4__2 {
+    width: 32%;
+    margin: 0px 20px 0px 0px;
+  }
+  .txt4__2 p {
+    font-size: 15px;
+    max-height: 300px;
+    overflow: hidden;
+    line-height: 18px;
+  }
+  .txt4__3 {
+    width: 33%;
+  }
+  .txt4__3 p {
+    font-size: 15px;
+    max-height: 280px;
+    overflow: hidden;
+    line-height: 18px;
+  }
+  .part5 {
+    height: 100%;
+    width: 100%;
+  }
+  .part5 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  .part6 {
+    width: 100%;
+    padding: 60px;
+    background-color: black;
+    height: 550px;
+  }
+  .cards6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .cards6 div {
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+  }
+  .cards6 div img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .cards6 div h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 15px 0px;
+    color: white;
+  }
+  .cards6 div p {
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+    width: 95%;
+    opacity: 0.8;
+  }
+  .part7 {
+    padding: 60px;
+    height: 300px;
+  }
+  .texts7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .texts7 div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+  .txt7__1 h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .txt7__1 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+    letter-spacing: 15px;
+  }
+  .txt7__1 p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .txt7__2 h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .txt7__2 ul li {
+    font-size: 15px;
+    margin: 10px;
+  }
+  .txt7__2 a button {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 900px) {
+  .part1 {
+    width: 100%;
+    height: 100%;
+  }
+  .texts1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 400px;
+    margin: 60px;
+    text-align: right;
+  }
+  .part1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .black {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.4;
+  }
+  .texts1 h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    width: 350px;
+    box-sizing: border-box;
+    text-align: right;
+    color: white;
+    margin: 0px 0px 100px 60px;
+  }
+  .texts1 p {
+    width: 400px;
+    color: white;
+  }
+  .p1__1 {
+    font-size: 25px;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+    text-align: right;
+  }
+  .p1__2 {
+    font-size: 20px;
+    text-align: right;
+    opacity: 0.9;
+    margin: 20px 10px;
+  }
+  .texts1 a button {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 40px;
+  }
+  .part2 {
+    width: 100%;
+    height: 350px;
+    padding: 60px;
+  }
+  .texts2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .txt2__1 {
+    width: 48%;
+  }
+  .txt2__1 h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .txt2__1 h2 {
+    font-size: 20px;
+    margin: 10px 0px;
+    font-weight: bold;
+  }
+  .txt2__1 p {
+    font-size: 15px;
+  }
+  .txt2__2 {
+    width: 45%;
+  }
+  .txt2__2 p {
+    font-size: 15px;
+    max-height: 167px;
+    overflow: hidden;
+  }
+  .txt2__2 a button {
+    font-size: 15px;
+    padding: 10px 40px;
+    text-align: center;
+    margin: 10px 0px 0px;
+    color: white;
+    background-color: black;
+  }
+  .part3 {
+    width: 100%;
+    height: 600px;
+  }
+  .images3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .images3 img {
+    width: 50%;
+    object-fit: cover;
+    height: 300px;
+  }
+  .part4 {
+    height: 320px;
+    width: 100%;
+    padding: 60px;
+  }
+  .texts4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .txt4__1 {
+    width: 34%;
+  }
+  .txt4__1 h1 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    margin: 0px 0px 10px;
+    text-align: left;
+  }
+  .txt4__1 h2 {
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .txt4__2 {
+    width: 32%;
+    margin: 0px 20px 0px 0px;
+  }
+  .txt4__2 p {
+    font-size: 15px;
+    max-height: 200px;
+    overflow: hidden;
+    line-height: 18px;
+  }
+  .txt4__3 {
+    width: 33%;
+  }
+  .txt4__3 p {
+    font-size: 15px;
+    max-height: 180px;
+    overflow: hidden;
+    line-height: 18px;
+  }
+  .part5 {
+    height: 80%;
+    width: 100%;
+  }
+  .part5 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  .part6 {
+    width: 100%;
+    padding: 60px;
+    background-color: black;
+    height: 950px;
+  }
+  .cards6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .cards6 div {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+  }
+  .cards6 div img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .card6__1 {
+    margin: 0px 0px 10px;
+  }
+  .card6__2 {
+    margin: 0px 0px 10px;
+  }
+  .cards6 div h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 15px 0px;
+    color: white;
+  }
+  .cards6 div p {
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+    width: 95%;
+    opacity: 0.8;
+  }
+  .part7 {
+    padding: 60px;
+    height: 350px;
+  }
+  .texts7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .texts7 div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+  .txt7__1 h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .txt7__1 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+    letter-spacing: 10px;
+  }
+  .txt7__1 p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .txt7__2 h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .txt7__2 ul li {
+    font-size: 15px;
+    margin: 10px;
+  }
+  .txt7__2 a button {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 700px) {
+  .part1 {
+    width: 100%;
+    height: 70%;
+  }
+  .texts1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 400px;
+    margin: 30px 0px 20px 0px;
+    text-align: right;
+  }
+  .part1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .black {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.4;
+  }
+  .texts1 h1 {
+    font-size: 50px;
+    line-height: 50px;
+    font-weight: bold;
+    width: 350px;
+    box-sizing: border-box;
+    color: white;
+    margin: 0px 0px 100px 0px;
+  }
+  .texts1 p {
+    width: 300px;
+    color: white;
+  }
+  .p1__1 {
+    font-size: 25px;
+    word-spacing: 5px;
+    margin: 0px 0px 0px 50px;
+    letter-spacing: 5px;
+  }
+  .p1__2 {
+    font-size: 20px;
+    opacity: 0.9;
+    margin: 20px 0px 20px 40px;
+  }
+  .texts1 a button {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 40px;
+    margin: 0px 60px 0px 0px;
+  }
+  .part2 {
+    width: 100%;
+    height: 300px;
+    padding: 30px 40px;
+  }
+  .texts2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .txt2__1 {
+    width: 49%;
+  }
+  .txt2__1 h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .txt2__1 h2 {
+    font-size: 20px;
+    margin: 5px 0px;
+    font-weight: bold;
+  }
+  .txt2__1 p {
+    font-size: 15px;
+    max-height: 120px;
+    overflow: hidden;
+  }
+  .txt2__2 {
+    width: 45%;
+  }
+  .txt2__2 p {
+    font-size: 15px;
+    max-height: 167px;
+    overflow: hidden;
+  }
+  .txt2__2 a button {
+    font-size: 15px;
+    padding: 10px 40px;
+    text-align: center;
+    margin: 10px 0px 0px;
+    color: white;
+    background-color: black;
+  }
+  .part3 {
+    width: 100%;
+    height: 500px;
+  }
+  .images3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .images3 img {
+    width: 50%;
+    object-fit: cover;
+    height: 250px;
+  }
+  .part4 {
+    height: 280px;
+    width: 100%;
+    padding: 30px 40px;
+  }
+  .texts4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .txt4__1 {
+    width: 33%;
+  }
+  .txt4__1 h1 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    margin: 0px 0px 10px;
+    text-align: left;
+  }
+  .txt4__1 h2 {
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .txt4__2 {
+    width: 33%;
+    margin: 0px 0px 0px 10px;
+  }
+  .txt4__2 p {
+    font-size: 15px;
+    max-height: 200px;
+    overflow: hidden;
+    line-height: 18px;
+  }
+  .txt4__3 {
+    width: 33%;
+    margin: 0px 0px 0px 20px;
+  }
+  .txt4__3 p {
+    font-size: 15px;
+    max-height: 180px;
+    overflow: hidden;
+    line-height: 18px;
+  }
+  .part5 {
+    height: 60%;
+    width: 100%;
+  }
+  .part5 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  .part6 {
+    width: 100%;
+    padding: 30px 40px;
+    background-color: black;
+    height: 700px;
+  }
+  .cards6 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .cards6 div {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+  }
+  .cards6 div img {
+    height: 200px;
+    object-fit: cover;
+  }
+  .card6__1 {
+    margin: 0px 0px 10px;
+  }
+  .card6__2 {
+    margin: 0px 0px 10px;
+  }
+  .cards6 div h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 0px;
+    color: white;
+  }
+  .cards6 div p {
+    font-size: 15px;
+    color: white;
+    line-height: 20px;
+    width: 95%;
+    max-height: 85px;
+    overflow: hidden;
+    opacity: 0.8;
+  }
+  .part7 {
+    padding: 30px 40px;
+    height: 350px;
+  }
+  .texts7 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .texts7 div {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+  }
+  .txt7__1 h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .txt7__1 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0px;
+    letter-spacing: 10px;
+  }
+  .txt7__1 p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .txt7__2 h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .txt7__2 ul li {
+    font-size: 15px;
+    margin: 10px;
+  }
+  .txt7__2 a button {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+  }
+}
+@media (max-width: 500px) {
+  .part1 {
+    width: 100%;
+    height: 70%;
+  }
+  .texts1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 400px;
+    margin: 30px 0px 20px 0px;
+    text-align: right;
+  }
+  .part1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .black {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.4;
+  }
+  .texts1 h1 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    width: 250px;
+    box-sizing: border-box;
+    color: white;
+    margin: 0px 0px 100px 120px;
+  }
+  .texts1 p {
+    width: 300px;
+    color: white;
+  }
+  .p1__1 {
+    font-size: 15px;
+    word-spacing: 5px;
+    margin: 0px 0px 0px 70px;
+    letter-spacing: 5px;
+  }
+  .p1__2 {
+    font-size: 15px;
+    opacity: 0.9;
+    margin: 20px 0px 20px 60px;
+  }
+  .texts1 a button {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 10px 40px;
+    margin: 0px 30px 0px 0px;
+  }
+  .part2 {
+    width: 100%;
+    height: 450px;
+    padding: 20px 20px;
+  }
+  .texts2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .txt2__1 {
+    width: 100%;
+  }
+  .txt2__1 h1 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .txt2__1 h2 {
+    font-size: 20px;
+    margin: 5px 0px;
+    font-weight: bold;
+  }
+  .txt2__1 p {
+    font-size: 15px;
+    max-height: 140px;
+    overflow: hidden;
+    border-bottom: 1px black solid;
+    margin: 0px 0px 10px;
+    padding: 0px 0px 10px 0px;
+  }
+  .txt2__2 {
+    width: 100%;
+  }
+  .txt2__2 p {
+    font-size: 15px;
+    max-height: 160px;
+    overflow: hidden;
+  }
+  .txt2__2 a button {
+    font-size: 15px;
+    padding: 10px 40px;
+    text-align: center;
+    margin: 10px 0px 0px;
+    color: white;
+    background-color: black;
+  }
+  .part3 {
+    width: 100%;
+    height: 400px;
+  }
+  .images3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .images3 img {
+    width: 50%;
+    object-fit: cover;
+    height: 200px;
+  }
+  .part4 {
+    height: 500px;
+    width: 100%;
+    padding: 20px 20px;
+  }
+  .texts4 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: left;
+  }
+  .txt4__1 {
+    width: 100%;
+    margin: 0px 0px 10px;
+  }
+  .txt4__1 h1 {
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: bold;
+    margin: 0px 0px -5px;
+    text-align: left;
+  }
+  .txt4__1 h2 {
+    font-size: 20px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .txt4__2 {
+    width: 100%;
+    margin: 0px;
+  }
+  .txt4__2 p {
+    font-size: 15px;
+    max-height: 200px;
+    overflow: hidden;
+    line-height: 18px;
+  }
+  .txt4__3 {
+    width: 100%;
+    margin: 0px;
+  }
+  .txt4__3 p {
+    font-size: 15px;
+    max-height: 180px;
+    overflow: hidden;
+    line-height: 18px;
+  }
+  .part5 {
+    height: 50%;
+    width: 100%;
+  }
+  .part5 img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+  .part6 {
+    width: 100%;
+    padding: 20px 20px;
+    background-color: black;
+    height: 1500px;
+  }
+  .cards6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .cards6 div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .cards6 div img {
+    height: 250px;
+    object-fit: cover;
+  }
+  .card6__1 {
+    margin: 0px 0px 10px;
+  }
+  .card6__2 {
+    margin: 0px 0px 10px;
+  }
+  .cards6 div h2 {
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 0px;
+    color: white;
+  }
+  .cards6 div p {
+    font-size: 15px;
+    margin: 5px 0px 15px;
+    color: white;
+    line-height: 20px;
+    width: 95%;
+    max-height: 60px;
+    overflow: hidden;
+    opacity: 0.8;
+  }
+  .part7 {
+    padding: 20px 20px;
+    height: 400px;
+  }
+  .texts7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .texts7 div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .txt7__1 h1 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .txt7__1 h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px;
+    letter-spacing: 5px;
+  }
+  .txt7__1 p {
+    font-size: 15px;
+    line-height: 15px;
+    margin: 0px 0px 10px;
+  }
+  .txt7__2 h1 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .txt7__2 ul li {
+    font-size: 15px;
+    margin: 5px 0px 0px 20px;
+  }
+  .txt7__2 a button {
+    background-color: black;
+    color: white;
+    margin: 10px 0px;
+    padding: 10px 30px;
+  }
+}
